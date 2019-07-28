@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto:300,400,700&display=swap');
+
+html,
+body{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    font-size: 1rem;
+    line-height: 28px;
+    margin: 0 auto;
+    font-weight: 300;
+    transform-style: preserve-3d;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.wild{
+  max-width: 1210px;
+}
+
+p,li{
+    font-size: 1rem;
+    display: block;
+    line-height: 1.7;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    -webkit-transition: all .38s ease;
+    -moz-transition: all .38s ease;
+    -ms-transition: all .38s ease;
+    transition: all .38s ease;
+}
+
+
+
+/*--- Nav memu ---*/
+
+.top-menu{
+  color: #fff;
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  background-color: #4A4D4E;
+}
+
+.top-menu ul>li{
+  display: inline-block;
+}
+
+.top-menu a {
+  color: #fff;
+}
+
+
+/*--- Nav memu ---*/
+
+.navbar {
+  padding: 10px 0;
+  z-index: 999;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+  border-bottom: 1px solid rgba(102, 102, 102, .5);
+  background-clip: padding-box;
+}
+   
+.navbar-toggler span {
+    color: #EE392A;
+    font-size: 30px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
+    box-shadow: none!important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  position: relative;
+  display: block;
+  font-size:  1.3rem;
+  letter-spacing: 1px;
+  color: #262626;
+  text-transform: capitalize;
+  font-weight: 400;
+  padding: 0px !important;
+  margin-left: 30px;
+  outline: none;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #e60000;
+}
+
+.nav_icons i{
+  font-size: 1.3rem;
+  margin-left: 30px;
+}
+
+/*--hero-image--*/
+.hero{
+    background: url('../img/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.hero .caption {
+  color: #fff;
+}
+
+.hero .caption h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.info_content {
+  background-color: #4A4D4E;
+  color: #ffff;
+}
+
+.info_content i {
+  font-size: 2rem;
+  padding-top: 15px;
+}
+
+.p_title {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+/*--Catalogue section--*/
+
+.section_space {
+  padding: 40px 0;
+}
+
+.box_solutions {
+  width: 380px;
+  height: 640px;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  box-shadow: 5px 3px 5px #e60000;
+  margin-top: 30px;
+}
+
+.box_solutions h4 {
+  color: #e60000;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.box_solutions .list-unstyled li {
+  text-align: left;
+  font-weight: 400;
+}
+.box_solutions p {
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.box_solutions img {
+  width: 100%;
+  height: 280px;
+}
+.box_solutions .list-unstyled i {
+  color: #e60000;
+  padding-right: 5px;
+}
+.serv_price {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.box_solutions a {
+  background-color: #e60000;
+  padding: 15px 20px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.box_1 {
+  padding-bottom: 50px;
+}
+
+.box_1_1 {
+  padding-bottom: none;
+}
+
+.change_color {
+  background-color: #F4F4F4;
+}
+
+/*-- catalogue box 2 --*/
+.box_2 {
+  padding-top: 10px;
+}
+
+.mobile img {
+  width: 200px;
+  align-items: center;
+}
+
+.box_solutions h6 {
+  text-transform: capitalize;
+  font-weight: 700; 
+  margin-top: 20px;
+}
+
+.mobile .box_solutions {
+  background-color: #fff;
+    box-shadow: none;
+    border: 1px solid #f2f2f2;
+}
+
+.more_deals {
+  padding-top: 50px;
+}
+
+.more_deals a{
+  color: #fff;
+  background-color: #e60000;
+  padding: 15px 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+/*-- WHY BUY FROM VODACOM --*/
+
+.why_vb {
+  background: url('../img/assets/why_back.jpg');
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+.why_box{
+  margin-top: 60px;
+}
+
+.why_vb i {
+    font-size: 2.5rem;
+    background-color: rgba(0, 0, 0, .35);
+    border-radius: 50%;
+    padding: 35px;
+    margin-bottom: 20px;
+}
+
+.p_why {
+  font-weight: 400;
+
+}
+/*--footer--*/
+.footer {
+  background: #333333;
+  color: #ffff;
+  font-weight: 400;
+}
+.social_icons {
+  display: inline;
+}
+.social_icons span i{
+  padding-right: 30px;
+  font-size: 2.5rem;
+  margin-bottom: 80px;
+}
+
+.footer_li li {
+  line-height: 2.5 !important;
+}
+
+.dev_from {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+/*---REGISTER TAB---*/
+
+.register {
+  padding-bottom: 30px;
+}
+
+.register {
+ background-color: #e60000 !important;
+ height: 100vh;
+ width: 100%;
+ display:flex;
+ color: #fff;
+ font-weight: 400;
+}
+
+.register h1 {
+  margin-top: 30px;
+  text-decoration: underline;
+
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+ background-color: #fff;
+  color: #e60000;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 200px;;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: #fff;
+}
+
+a:hover{
+  color: #e6e6e6;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  font-weight: 700;
+}
